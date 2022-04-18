@@ -41,7 +41,7 @@ if(isset($_POST['Submit'])) {
 
 		$token = join("", $b);
 		//insert data to database	
-		$result = mysqli_query($mysqli, "INSERT INTO usuarios (nome, email, senha, adm,token,confirmado) VALUES ('$nome', '$email', '$senha', '$adm','$token',1)");
+		$result = mysqli_query($mysqli, "INSERT INTO usuarios (nome, email, senha, adm,token,confirmado) VALUES ('$nome', '$email', md5($senha), '$adm','$token',1)");
 		
 		//display success messid_email
 		echo "<font color='green'>Data added successfully.";
