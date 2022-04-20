@@ -75,7 +75,7 @@
 
             <div id="textoLogin">
                 <span class="title">Já possui uma conta?</span>
-                <span class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam modi, et iusto explicabo amet libero saepe quos impedit quisquam ut, ex tempora.</span>
+                <span class="subtitle">Crie uma conta agora para acessar todas as ferramentas. É de graça!</span>
                 <button id="btnLogin" class="change">Entrar</button>
             </div>
         </div>
